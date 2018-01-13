@@ -1,5 +1,5 @@
 //モジュールのインポート
-const server = require("express")();
+const server = require("express");
 const line = reuiqre("@line/bot-sdk"); // MessagingAPIのSDK
 
 //パラメータ
