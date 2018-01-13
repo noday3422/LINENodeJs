@@ -4,7 +4,7 @@ const http = require('http');
 const https = require('https');
 const crypto = require('crypto');
 
-const HOST = 'api.line.me'; 
+const HOST = 'line-information.azurewebsites.net'; 
 const REPLY_PATH = '/v2/bot/message/reply';//リプライ用
 const CH_SECRET = process.env.LINE_CHANNEL_SECRET; //Channel Secretを指定
 const CH_ACCESS_TOKEN = process.env.LINE_ACCESS_TOKEN; //Channel Access Tokenを指定
